@@ -5,7 +5,7 @@ Modified Vagrant scripts for Ambari to spin up 1 Node cluster by running below c
 Prerequisite
 
 ```  
-  Virtual Box(http://download.virtualbox.org/virtualbox/4.3.12/VirtualBox-4.3.12-93733-OSX.dmg) , 
+  Virtual Box (http://download.virtualbox.org/virtualbox/4.3.12/VirtualBox-4.3.12-93733-OSX.dmg) , 
   Vagrant (https://dl.bintray.com/mitchellh/vagrant/vagrant_1.6.3.dmg)
 ```  
 
