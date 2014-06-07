@@ -6,6 +6,9 @@ Ambari Version: 1.5.1
 HDP 2.0
 
 git clone https://github.com/saurabhmishra/ambari-vagrant.git
+
 cd ambari-vagrant
+
 cd centos6.5
+
 ./up.sh
