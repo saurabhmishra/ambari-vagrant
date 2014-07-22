@@ -19,7 +19,6 @@ yum -q clean all
 yum -q repolist
 yum -q -y install ambari-server ambari-agent
 /etc/init.d/ambari-server setup -s
-wget --no-check-certificate https://raw.githubusercontent.com/saurabhmishra/Ambari/master/Ambari/ambari.properties  -O /etc/ambari-server/conf/ambari.properties
 /etc/init.d/ambari-server start
 chkconfig ambari-server on
 /etc/init.d/ambari-agent start
