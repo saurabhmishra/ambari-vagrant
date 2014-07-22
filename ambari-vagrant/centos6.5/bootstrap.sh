@@ -14,7 +14,7 @@ chkconfig ip6tables off
 service mysqld start
 chkconfig mysqld on
 mkdir -p /root/.ssh; chmod 600 /root/.ssh; cp /home/vagrant/.ssh/authorized_keys /root/.ssh/
-wget -q http://public-repo-1.hortonworks.com/ambari/centos6/1.x/updates/1.5.1/ambari.repo -O /etc/yum.repos.d/ambari.repo
+wget -q http://public-repo-1.hortonworks.com/ambari/centos6/1.x/updates/1.6.1/ambari.repo -O /etc/yum.repos.d/ambari.repo
 yum -q clean all
 yum -q repolist
 yum -q -y install ambari-server ambari-agent
